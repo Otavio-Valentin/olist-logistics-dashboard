@@ -42,3 +42,33 @@ Follow these steps to clone and run the dashboard on your machine:
 **1. Clone the repository:**
 ```bash
 git clone [https://github.com/YOUR_USERNAME/olist-logistics-dashboard.git](https://github.com/YOUR_USERNAME/olist-logistics-dashboard.git)
+
+2. Install required libraries:
+
+Bash
+
+pip install streamlit pandas plotly
+3. Run the Dashboard:
+
+Bash
+
+streamlit run dashboard.py
+Author: Otavio
+
+
+*(Salva o arquivo com `Ctrl + S`)*
+
+---
+
+### 🚀 Passo 2: Enviar para o GitHub
+
+Agora que o arquivo existe, vamos mandá-lo para a nuvem. Vai ao terminal e digita:
+
+```bash
+git add README.md
+Bash
+
+git commit -m "Add README documentation"
+Bash
+
+git push
