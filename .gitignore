@@ -1,6 +1,6 @@
-# Ignore Python temporary files
 __pycache__/
 *.pyc
 
-# Ignore heavy data files (Fix for HTTP 408 error)
+# Ignore heavy data files
 *.csv
+data/*.csv

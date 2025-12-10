@@ -9,9 +9,9 @@ st.set_page_config(page_title="Olist Logistics Dashboard", layout="wide")
 @st.cache_data
 def load_data():
     # 1. Read files separately
-    df_orders = pd.read_csv("olist_orders_dataset.csv")
-    df_items = pd.read_csv("olist_order_items_dataset.csv")
-    df_customers = pd.read_csv("olist_customers_dataset.csv")
+    df_orders = pd.read_csv("data/olist_orders_dataset.csv")
+    df_items = pd.read_csv("data/olist_order_items_dataset.csv")
+    df_customers = pd.read_csv("data/olist_customers_dataset.csv")
     
     # 2. Merge Orders with Items (using 'order_id')
     df_temp = pd.merge(df_orders, df_items, on="order_id")
