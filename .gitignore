@@ -2,6 +2,5 @@
 __pycache__/
 *.pyc
 
-# (Optional) If you want to ignore data files to keep the repo light,
-# you can add *.csv here. But for your portfolio to work immediately
-# when someone downloads it, let's keep the CSVs for now.
+# Ignore heavy data files (Fix for HTTP 408 error)
+*.csv
