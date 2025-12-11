@@ -53,22 +53,3 @@ pip install streamlit pandas plotly
 Bash
 
 streamlit run dashboard.py
-Author: Otavio
-
-
-*(Salva o arquivo com `Ctrl + S`)*
-
----
-
-### 🚀 Passo 2: Enviar para o GitHub
-
-Agora que o arquivo existe, vamos mandá-lo para a nuvem. Vai ao terminal e digita:
-
-```bash
-git add README.md
-Bash
-
-git commit -m "Add README documentation"
-Bash
-
-git push
