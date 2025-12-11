@@ -46,13 +46,13 @@ Follow these steps to clone and run the dashboard on your machine:
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/olist-logistics-dashboard.git](https://github.com/YOUR_USERNAME/olist-logistics-dashboard.git)
+git clone git clone https://github.com/Otavio-Valentin/olist-logistics-dashboard.git
 
 2. Install required libraries:
 
 Bash
 
-pip install streamlit pandas plotly
+pip install -r requirements.txt
 3. Run the Dashboard:
 
 Bash
