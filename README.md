@@ -6,10 +6,11 @@ The tool processes over **112,000 real order records**, enabling the identificat
 
 **Goal:** To demonstrate how to replace slow Excel-based analysis with scalable Python dashboards.
 
-![Dashboard Preview 2](assets/dashboard-preview_1.png)
-
-![Dashboard Preview 2](assets/dashboard-preview_2.png)
-
+<div align="center">
+  <img src="assets/dashboard-preview_1.png" width="700px" />
+  <br><br>
+  <img src="assets/dashboard-preview_2.png" width="700px" />
+</div>
 ---
 
 ## 🛠️ Tech Stack
